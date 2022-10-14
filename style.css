@@ -1,0 +1,56 @@
+.body {
+    background-color: #66F569;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    font: normal, 10vw, arial;
+}
+.titulo{
+    color:  #317523;
+    margin: 0 auto;
+    width: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+.container{
+    margin: 0 auto;
+    width: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+.place{
+    background-color: #B8FA5D;
+    border-color: #52DE76;
+    border: 1px solid #52DE76;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.place h2 {
+    border-bottom: 1px dashed #147500;
+    margin: 0;
+    color: #317523;
+}
+.place a{
+    color: #317523;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+}
+.place a:hover{
+    color: #52DE76;
+   text-decoration: none;
+   border: none;
+}
+.place img{
+    border: 1px solid #52DE76;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+.clear{
+    clear: both
+}
+@media screen and (max-width: 500px) {
+    .body, .titulo, .container, .place, .clear {
+    width: 98%;
+}
+}
